@@ -45,7 +45,7 @@ Array adalah struktur data utama program:
 **Menggunakan GCC (terminal):**
 ```bash
 gcc -Wall -Wextra -o kantin main.c
-./kantin          # Windows: kantin.exe
+./kantin
 ```
 
 **Menggunakan Code::Blocks:**
