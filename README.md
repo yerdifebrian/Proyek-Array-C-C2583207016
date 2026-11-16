@@ -92,10 +92,10 @@ Pengujian dilakukan dengan 7 skenario wajib. Setiap skenario disertai input, has
 - **Hasil yang diharapkan**: Stok dan jumlah terjual berubah.
 - **Keterangan**: Stok baru dikurangi setelah transaksi dikonfirmasi. Stok Nasi Goreng berubah dari 20 menjadi 18 dan terjualnya menjadi 2. Stok Mie Ayam berubah dari 15 menjadi 12 dan terjualnya menjadi 3.
 
-<img width="960" height="540" alt="trx1" src="https://github.com/user-attachments/assets/2c756616-22cd-4e17-8a9a-159ab1afc047" />
-<img width="960" height="540" alt="trx2" src="https://github.com/user-attachments/assets/ecd6b831-c3f9-414c-b9fd-e7300c0227db" />
-<img width="960" height="540" alt="trx3" src="https://github.com/user-attachments/assets/f05c2003-9124-4fd7-94d8-d82c18ba4457" />
-<img width="960" height="540" alt="trx4" src="https://github.com/user-attachments/assets/92628995-35dd-4a90-9b30-743bf9356fe4" />
+-<img width="960" height="540" alt="trx1" src="https://github.com/user-attachments/assets/2c756616-22cd-4e17-8a9a-159ab1afc047" />
+-<img width="960" height="540" alt="trx2" src="https://github.com/user-attachments/assets/ecd6b831-c3f9-414c-b9fd-e7300c0227db" />
+-<img width="960" height="540" alt="trx3" src="https://github.com/user-attachments/assets/f05c2003-9124-4fd7-94d8-d82c18ba4457" />
+-<img width="960" height="540" alt="trx4" src="https://github.com/user-attachments/assets/92628995-35dd-4a90-9b30-743bf9356fe4" />
 
 
 ---
@@ -105,8 +105,8 @@ Pengujian dilakukan dengan 7 skenario wajib. Setiap skenario disertai input, has
 - **Hasil yang diharapkan**: Transaksi ditolak dan stok tetap.
 - **Keterangan**: Program membandingkan jumlah beli (termasuk yang sudah ada di keranjang) dengan stok. Karena 10 > 4, pembelian ditolak dengan pesan stok tidak cukup. Stok Air Mineral tetap 4.
 
-<img width="960" height="540" alt="sken4" src="https://github.com/user-attachments/assets/041b492d-0ecf-49a2-b4c6-2fe7bdde4476" />
-<img width="960" height="540" alt="ken4" src="https://github.com/user-attachments/assets/5e91dc43-4aa5-47d0-904b-def6c5624516" />
+-<img width="960" height="540" alt="sken4" src="https://github.com/user-attachments/assets/041b492d-0ecf-49a2-b4c6-2fe7bdde4476" />
+-<img width="960" height="540" alt="ken4" src="https://github.com/user-attachments/assets/5e91dc43-4aa5-47d0-904b-def6c5624516" />
 
 ---
 
@@ -115,7 +115,7 @@ Pengujian dilakukan dengan 7 skenario wajib. Setiap skenario disertai input, has
 - **Hasil yang diharapkan**: Unit, pendapatan, dan produk terlaris benar.
 - **Keterangan**: Total unit terjual = 2 + 3 = 5. Total pendapatan = 24.000 + 30.000 = 54.000. Produk terlaris adalah Mie Ayam dengan 3 unit.
 
-<img width="960" height="540" alt="sken5" src="https://github.com/user-attachments/assets/e4f1ab0c-de2f-426c-a472-d7a920a19d8a" />
+-<img width="960" height="540" alt="sken5" src="https://github.com/user-attachments/assets/e4f1ab0c-de2f-426c-a472-d7a920a19d8a" />
 
 ---
 
@@ -124,8 +124,8 @@ Pengujian dilakukan dengan 7 skenario wajib. Setiap skenario disertai input, has
 - **Hasil yang diharapkan**: Urutan sesuai ketentuan.
 - **Keterangan**: Pilihan 1 menampilkan harga naik dari atas ke bawah (2.000, 3.000, 4.000, 7.000, 8.000, 10.000, 12.000). Pilihan 2 menampilkan jumlah terjual turun dari atas ke bawah (Gorengan 10, Es Teh Manis 4, Mie Ayam 3, Nasi Goreng 2, lalu produk yang belum terjual). Pengurutan memakai bubble sort pada array indeks `urut[]`, sehingga data asli tidak berubah.
 
-<img width="960" height="540" alt="sken6" src="https://github.com/user-attachments/assets/f283f4ae-c1c3-42f5-81fc-797c45207cd3" />
-<img width="960" height="540" alt="ken6" src="https://github.com/user-attachments/assets/e10960e4-54e6-4870-b992-3281e5ca035d" />
+-<img width="960" height="540" alt="sken6" src="https://github.com/user-attachments/assets/f283f4ae-c1c3-42f5-81fc-797c45207cd3" />
+-<img width="960" height="540" alt="ken6" src="https://github.com/user-attachments/assets/e10960e4-54e6-4870-b992-3281e5ca035d" />
 
 ---
 
@@ -134,5 +134,5 @@ Pengujian dilakukan dengan 7 skenario wajib. Setiap skenario disertai input, has
 - **Hasil yang diharapkan**: Hasil dan peringatan tepat.
 - **Keterangan**: Pencarian tidak membedakan huruf besar/kecil dan mencocokkan sebagian kata, sehingga `nasi` menemukan Nasi Goreng. Kata `pizza` menghasilkan pesan tidak ditemukan. Menu 9 menampilkan produk dengan stok kurang dari 5, yaitu Air Mineral (stok 4).
 
-!<img width="960" height="540" alt="sken7" src="https://github.com/user-attachments/assets/76871c53-dd96-4cf9-9c1a-af521de83198" />
-!<img width="960" height="540" alt="ken7" src="https://github.com/user-attachments/assets/e8576e06-a911-45f8-a586-23bc6ae349cd" />
+-<img width="960" height="540" alt="sken7" src="https://github.com/user-attachments/assets/76871c53-dd96-4cf9-9c1a-af521de83198" />
+-<img width="960" height="540" alt="ken7" src="https://github.com/user-attachments/assets/e8576e06-a911-45f8-a586-23bc6ae349cd" />
